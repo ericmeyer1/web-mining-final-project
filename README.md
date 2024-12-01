@@ -1,4 +1,4 @@
-# Web Miniong & NLP Final Project: Using Web Mining & NLP Techniques to Summarize an Article
+# Web Mining & NLP Final Project: Using Web Mining & NLP Techniques to Summarize an Article
 
 ## Summary
 In this project, we use Python's requests module to scrape data from a the URL: [https://web.archive.org/web/20210327165005/https://hackaday.com/2021/03/22/how-laser-headlights-work/](https://mitsloan.mit.edu/ideas-made-to-matter/ai-manufacturing-start-data).
