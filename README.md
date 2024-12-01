@@ -1,25 +1,41 @@
-# Final Project: Article Summarizer
+# Web Miniong & NLP Final Project: Using Web Mining & NLP Techniques to Summarize an Article
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+## Summary
+In this project, we use Python's requests module to scrape data from a the URL: [https://web.archive.org/web/20210327165005/https://hackaday.com/2021/03/22/how-laser-headlights-work/](https://mitsloan.mit.edu/ideas-made-to-matter/ai-manufacturing-start-data).
+Next, we utilized modules beautifulsoup4 and html5lib to parse the webpage data and allow us to further conduct analysis.
+Then, we leveraged the spaCy module "en_core_web_sm" model along with the collections - counter to conduct NLP on the webpages data.
+Finally, we used matplotlib to visualize the findings of frequent tokens and lemmas in the webpage's sentences.
 
-## Rubric
+## Skills Used
+- VS Code
+- GitHub
+- Git
+- Python
+- Jupyter
 
-* (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
-* (Question 2) Polarity score printed with an appropriate label: 1 pt
-* (Question 2) Number of sentences printed: 1 pt
-* (Question 3) Correct (or equivalent in the case of multiple tokens with same frequency) tokens printed: 1 pt
-* (Question 4) Correct (or equivalent in the case of multiple lemmas with same frequency) lemmas printed: 1 pt
-* (Question 5) Histogram shown with appropriate labelling: 1 pt
-* (Question 6) Histogram shown with appropriate labelling: 1 pt
-* (Question 7) Cutoff score seems appropriate given histograms: 2 pts (1/score)
-* (Question 8) Summary contains a shortened version of the article (less than half the number of sentences): 1 pt
-* (Question 8) Summary sentences are in the same order as they appeared in the original article: 1 pt
-* (Question 9) Polarity score printed with an appropriate label: 1 pt
-* (Question 9) Number of sentences printed: 1 pt
-* (Question 10) Summary contains a shortened version of the article (less than half the number of sentences): 1 pt
-* (Question 10) Summary sentences are in the same order as they appeared in the original article: 1 pt
-* (Question 11) Polarity score printed with an appropriate label: 1 pt
-* (Question 11) Number of sentences printed: 1 pt
-* (Question 12) Thoughtful answer based on reported polarity scores: 1 pt
-* (Question 13) Thoughtful answer based on summaries: 1 pt
+## Libraries and Modules
+- __Requests:__ Used to make HTTP request to gather webpage data.
+- __beautifulsoup4:__ Used to parse the returned webpage results.
+- __html5lib:__ Also used to parse the returned webpage results.
+- __spaCy:__ Used to setup our model and conduct natural language processing.
+- __matplotlib:__ Used to customize data vizualization of our returned NLP results.
+
+## Commands Used to Setup and Activate Virtual Environment
+- Creating:
+  - python -m venv "name-of-your-environment"
+- Activating (for Windows):
+  - "name-of-your-environment"\Scripts\Activate
+
+## Commands Used to Download Packages
+- python -m pip install jupyter
+- python -m pip install ipykernel
+- python -m pip install beautifulsoup4
+- python -m pip install html5lib
+- python -m pip install requests
+- python -m pip install spacy
+
+## Download and Setup of spaCy
+https://spacy.io/usage
+
+## Interested in chatting about this project, data analytics, or just staying in touch?
+Connect with me on LinkedIn: [Eric Meyer](https://www.linkedin.com/in/ericmeyer123/)
