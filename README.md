@@ -1,7 +1,7 @@
 # Web Mining & NLP Final Project: Using Web Mining & NLP Techniques to Summarize an Article
 
 ## Summary
-In this project, we use Python's requests module to scrape data from the URL: [https://web.archive.org/web/20210327165005/https://hackaday.com/2021/03/22/how-laser-headlights-work/](https://mitsloan.mit.edu/ideas-made-to-matter/ai-manufacturing-start-data).
+In this project, we use Python's requests module to scrape data from the URL: (https://mitsloan.mit.edu/ideas-made-to-matter/ai-manufacturing-start-data).
 Next, we utilized modules beautifulsoup4 and html5lib to parse the webpage data and allow us to further conduct analysis.
 Then, we leveraged the spaCy module "en_core_web_sm" model along with the collections - counter to conduct NLP on the webpages data.
 Finally, we used matplotlib to visualize the findings of frequent tokens and lemmas in the webpage's sentences.
